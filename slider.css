@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Condensed:wght@100;700&display=swap');
+:root{
+    --color1: #C0C0C0;
+    --color2: rgba(216, 57, 144, 60%);
+}
+.home-page{ background: url(images/portada-web.png)
+no-repeat center center fixed;-webkit-background-size: cover;
+-moz-background-size: cover;
+background-size: cover;
+-o-background-size: cover;
+height: 90vh
+;}
+.review_item_content{
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 7;
+    line-clamp: 7;
+    overflow: hidden;
+}
+.color{
+    background-color: var(--color2);
+}
+
+.footers{
+    padding: 4px;
+}
+
+.icon_footer{
+    padding:10px;
+}
+
+.name{
+    text-align: right;
+}
+
+p{ margin:2px}
+
+h6{
+    font-size: 4em;
+    text-shadow: .1em .1em .2em rgba(0, 0, 0, 0.6);
+    font-family: 'IBM Plex Sans Condensed', sans-serif;
+    font-weight:800;
+}
+
+@media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    .home-page{ height: 10vh;}}
