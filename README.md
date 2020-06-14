@@ -1,2 +1,1 @@
 # psicoredgt
-mi página 
